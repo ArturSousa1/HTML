@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Direferentes imagens de Fundo</title>
+    <style>
+        body {
+            background-image: url(/img/wallpaper001.jpg);
+        }
+
+        div.img-fundo {
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            border: 2px solid black;
+            border-radius: 4px;
+        }
+
+        #fundo-normal {
+            background-color: pink;
+        }
+
+        #fundo-degrade {
+            background-image: linear-gradient(to right, white, black);
+        }
+
+        #fundo-imagem {
+            background-image: url(/img/wallpaper003.jpg);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="img-fundo" id="fundo-normal"></div>
+        <div class="img-fundo" id="fundo-degrade"></div>
+        <div class="img-fundo" id="fundo-imagem"></div>
+    </main>
+</body>
+
+</html>
