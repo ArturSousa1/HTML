@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+div {
+    height: 200px;
+    border: 2px solid black;
+    background-image: url(/exercicios/img/wallpaper003.jpg);
+    margin: 10px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    width: 800px;
+}
+
+h1,
+p,
+h2 {
+    margin-left: 10px;
+    line-height: 30px;
+}
+
+#caixa1 {
+    background-position: left top;
+}
+
+#caixa2 {
+    background-position: right top;
+}
+
+#caixa3 {
+    background-position: left center;
+}
+
+#caixa4 {
+    background-position: center center;
+}
+
+#caixa5 {
+    background-position: left bottom;
+}
+
+#caixa6 {
+    background-position: right bottom;
+}
