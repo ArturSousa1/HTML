@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+html,
+body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+:root {
+    --fonte-padrao: "Passion One", sans-serif;
+    --fonte-cursiva: "Sriracha", cursive;
+    --cabecalho: black;
+}
+
+header {
+    background-color: var(--cabecalho);
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1,
+header>p {
+    font-family: var(--fonte-padrao);
+    font-variant: small-caps;
+}
+
+p {
+    font-family: var(--fonte-cursiva);
+    margin-left: 20px;
+}
+
+.normal {
+    background-color: white;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+}
+
+#imagem-joaninha>p,
+#imagem-livro>p {
+    background-color: rgba(0, 0, 0, 0.542);
+    color: white;
+    width: 200px;
+}
+
+/* #imagem-joaninha {
+    height: 500px;
+    background-image: url(/exercicios/img/background001.jpg);
+    background-position: right bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    /* left: 50%;
+    top: 50%; 
+} */
+
+/* #imagem-livro {
+    background-image: url(/exercicios/img/background002.jpg);
+    height: 500px;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+} */
