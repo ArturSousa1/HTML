@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    /* CÓDIGO SIMPLÍFICADO COM SHORTHAND
+     background-color: black;
+    background-image: url(/exercicios/img/wallpaper002.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed; */
+
+    background: black url(/exercicios/img/wallpaper002.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    max-width: 600px;
+    text-align: justify;
+    padding: 10px;
+    border: 1px solid black;
+    margin: auto;
+}
