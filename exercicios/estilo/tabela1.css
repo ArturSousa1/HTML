@@ -1,0 +1,18 @@
+table {
+    border: 2px solid red;
+    border-collapse: collapse;
+
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.inicio-linha {
+    background-color: yellow;
+}
