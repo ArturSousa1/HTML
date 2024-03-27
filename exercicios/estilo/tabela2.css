@@ -20,12 +20,16 @@ table {
     background-color: rgba(128, 128, 128, 0.368);
     margin: auto;
     margin-bottom: 50px;
+    position: relative;
 
 }
 
 th,
 tfoot {
     background-color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
 }
 
 td {
