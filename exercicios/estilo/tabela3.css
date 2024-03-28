@@ -9,3 +9,9 @@ table {
 td {
     border: 1px solid black;
 }
+
+th {
+    background-color: grey;
+    border: 1px solid black;
+    color: white;
+}
