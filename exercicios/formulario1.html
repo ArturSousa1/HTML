@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário em html</title>
+</head>
+
+<body>
+    <form autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome:</label> <input type="text" name="nome" id="inome"
+                    placeholder="Digite o seu Primeiro nome" required minlength="5" size="5">
+            </p>
+            <p>
+                <label for="isobrenome">Sobrenome</label> <input type="text" name="sobrenome" id="isobrenome"
+                    placeholder="Digite seu Sobrenome" required minlength="8">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+            <p>
+                Número:<input type="number" placeholder="digite um número" required min="0" max="10" step="0.1">
+            </p>
+            <input type="checkbox" name="fut" id="ifut"> <label for="ifut">Futebol</label>
+        </fieldset>
+    </form><br>
+
+    <form action="">
+        <fieldset>
+            <p>
+                Estado:
+                <select name="iest" id="iest">
+                    <optgroup label="Região Sudeste">
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="MG">Minas Gerais</option>
+                    </optgroup>
+                </select><br>
+            </p>
+            <p>
+                Profissão:
+                <input type="text" list="iprof">
+                <datalist id="iprof">
+                    <option value="ADM">Adiministrador</option>
+                </datalist>
+            </p>
+
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
