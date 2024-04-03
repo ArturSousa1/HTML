@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* Mobile First */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+html{
+    height: 100vh;
+}
+
+body{
+    background: black url(/exercicios/img/back-phone.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.538);
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+main h1{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+img{
+    display: none;
+    margin: auto;
+}
+
+img#iphone{
+    display: block;
+}

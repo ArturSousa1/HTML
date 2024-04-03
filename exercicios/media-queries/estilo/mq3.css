@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* Todas as demais medias */
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    body {
+        background-image: url(/exercicios/img/back-tablet.jpg);
+    }
+
+    img#itablet {
+        display: block;
+    }
+
+    img#iphone {
+        display: none;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    body {
+        background-image: url(/exercicios/img/back-pc.jpg);
+    }
+
+    img#ipc {
+        display: block;
+    }
+
+    img#itablet {
+        display: none;
+    }
+
+    img#iphone {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    body {
+        background-image: url(/exercicios/img/back-tv.jpg);
+    }
+
+    img#itv {
+        display: block;
+    }
+
+    img#ipc {
+        display: none;
+    }
+
+    img#itablet {
+        display: none;
+    }
+
+    img#iphone {
+        display: none;
+    }
+}
